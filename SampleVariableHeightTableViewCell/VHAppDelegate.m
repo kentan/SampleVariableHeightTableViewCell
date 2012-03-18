@@ -2,13 +2,13 @@
 //  VHAppDelegate.m
 //  SampleVariableHeightTableViewCell
 //
-//  Created by SHIMADA Kenta on 12/03/11.
+//  Created by Kentan on 12/03/11.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
 #import "VHAppDelegate.h"
 
-#import "VHViewController.h"
+#import "VHTableViewController.h"
 
 @implementation VHAppDelegate
 
@@ -19,7 +19,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[VHViewController alloc] initWithNibName:@"VHViewController" bundle:nil];
+
+
+    self.viewController = [[VHTableViewController alloc]initWithStyle:UITableViewStylePlain];
+                    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

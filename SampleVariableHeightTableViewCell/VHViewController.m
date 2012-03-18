@@ -2,7 +2,7 @@
 //  VHViewController.m
 //  SampleVariableHeightTableViewCell
 //
-//  Created by SHIMADA Kenta on 12/03/11.
+//  Created by Kentan on 12/03/11.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 

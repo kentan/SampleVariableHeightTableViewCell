@@ -1,5 +1,5 @@
 //
-//  VHViewController.h
+//  VHTableViewController.h
 //  SampleVariableHeightTableViewCell
 //
 //  Created by Kentan on 12/03/11.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VHViewController : UIViewController
-
+@interface VHTableViewController : UITableViewController
+{
+    NSMutableDictionary *cellDict;
+}
+-(void)setTableReloadTimer;
 @end
