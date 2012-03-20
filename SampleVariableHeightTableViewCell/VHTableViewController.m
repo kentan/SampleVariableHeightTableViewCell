@@ -20,7 +20,7 @@
         // Custom initialization
 
         // set timer for adjusting height by redrawing
-        [self setTableReloadTimer];
+        //[self setTableReloadTimer];
     }
     return self;
 }
@@ -113,8 +113,6 @@
     static NSString *CellIdentifier = @"Cell";
     int row = [indexPath row];
     
-//    VHTableViewCell *cell = [cellDict objectForKey:[NSNumber numberWithInt:row]];
- 
      VHTableViewCell *cell = [cellDict objectForKey:[NSNumber numberWithInt:row]];
     if(cell == nil){
         cell = [[VHTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil index:[indexPath row]];
@@ -187,7 +185,6 @@
 {
 
     int row = [indexPath row];
-    NSLog(@"ok:%d",[indexPath row]);
     VHTableViewCell *cell = [cellDict objectForKey:[NSNumber numberWithInt:row]];
     if(cell == nil){
         return 100.0;

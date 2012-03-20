@@ -23,32 +23,17 @@
             index = row;
         }
         NSString *str = [[VHDataManagerSingleton newInstance]getData:index];
-        [webView loadHTMLString:str baseURL:nil];           
+ 
 
-        
         webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, 280,1)];
         webView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
-
-        //    webView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-       // webView.scrollView.scrollEnabled = NO;
-        
-        
-        NSLog(@":::%f",webView.frame.size.height);
+       [webView loadHTMLString:str baseURL:nil];           
+                
 
         [self.contentView addSubview:webView];
         
-        CGRect frame = webView.bounds;
-        double height = webView.scrollView.contentSize.height;
-        frame.size.height = height;
-        webView.frame = frame;
-        
-        NSLog(@":::%f",webView.bounds.size.height);        
-        
-//        int newHeight = webView.scrollView.contentSize.height;
-//        webView.bounds = CGRectMake(0,0,280, newHeight);
-//        NSLog(@"---%d",newHeight);
-//        [webView setNeedsDisplay];
 
+        
     }
     return self;
 }
