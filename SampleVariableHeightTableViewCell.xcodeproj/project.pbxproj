@@ -15,6 +15,9 @@
 		2DBF810E150BAAAD0096A597 /* VHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF810D150BAAAD0096A597 /* VHAppDelegate.m */; };
 		2DBF8111150BAAAD0096A597 /* VHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8110150BAAAD0096A597 /* VHViewController.m */; };
 		2DBF8114150BAAAD0096A597 /* VHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF8112150BAAAD0096A597 /* VHViewController.xib */; };
+		2DBF811C150BAB270096A597 /* VHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF811B150BAB270096A597 /* VHTableViewController.m */; };
+		2DBF811F150BC7BD0096A597 /* VHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF811E150BC7BC0096A597 /* VHTableViewCell.m */; };
+		2DBF8125150C62EF0096A597 /* VHDataManagerSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8124150C62EF0096A597 /* VHDataManagerSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		2DBF80FD150BAAAD0096A597 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DBF80FF150BAAAD0096A597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DBF8101150BAAAD0096A597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2DBF8105150BAAAD0096A597 /* SampleVariableHeightTableViewCell-Info.plist */ = {isa = PBXFileReference; path = "SampleVariableHeightTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		2DBF8105150BAAAD0096A597 /* SampleVariableHeightTableViewCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleVariableHeightTableViewCell-Info.plist"; sourceTree = "<group>"; };
 		2DBF8107150BAAAD0096A597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DBF8109150BAAAD0096A597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2DBF810B150BAAAD0096A597 /* SampleVariableHeightTableViewCell-Prefix.pch */ = {isa = PBXFileReference; path = "SampleVariableHeightTableViewCell-Prefix.pch"; sourceTree = "<group>"; };
-		2DBF810C150BAAAD0096A597 /* VHAppDelegate.h */ = {isa = PBXFileReference; path = VHAppDelegate.h; sourceTree = "<group>"; };
+		2DBF810B150BAAAD0096A597 /* SampleVariableHeightTableViewCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleVariableHeightTableViewCell-Prefix.pch"; sourceTree = "<group>"; };
+		2DBF810C150BAAAD0096A597 /* VHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHAppDelegate.h; sourceTree = "<group>"; };
 		2DBF810D150BAAAD0096A597 /* VHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHAppDelegate.m; sourceTree = "<group>"; };
-		2DBF810F150BAAAD0096A597 /* VHViewController.h */ = {isa = PBXFileReference; path = VHViewController.h; sourceTree = "<group>"; };
+		2DBF810F150BAAAD0096A597 /* VHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHViewController.h; sourceTree = "<group>"; };
 		2DBF8110150BAAAD0096A597 /* VHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHViewController.m; sourceTree = "<group>"; };
 		2DBF8113150BAAAD0096A597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VHViewController.xib; sourceTree = "<group>"; };
+		2DBF811A150BAB270096A597 /* VHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHTableViewController.h; sourceTree = "<group>"; };
+		2DBF811B150BAB270096A597 /* VHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHTableViewController.m; sourceTree = "<group>"; };
+		2DBF811D150BC7BC0096A597 /* VHTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHTableViewCell.h; sourceTree = "<group>"; };
+		2DBF811E150BC7BC0096A597 /* VHTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHTableViewCell.m; sourceTree = "<group>"; };
+		2DBF8123150C62EF0096A597 /* VHDataManagerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHDataManagerSingleton.h; sourceTree = "<group>"; };
+		2DBF8124150C62EF0096A597 /* VHDataManagerSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHDataManagerSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 				2DBF810F150BAAAD0096A597 /* VHViewController.h */,
 				2DBF8110150BAAAD0096A597 /* VHViewController.m */,
 				2DBF8112150BAAAD0096A597 /* VHViewController.xib */,
+				2DBF811A150BAB270096A597 /* VHTableViewController.h */,
+				2DBF811B150BAB270096A597 /* VHTableViewController.m */,
+				2DBF811D150BC7BC0096A597 /* VHTableViewCell.h */,
+				2DBF811E150BC7BC0096A597 /* VHTableViewCell.m */,
+				2DBF8123150C62EF0096A597 /* VHDataManagerSingleton.h */,
+				2DBF8124150C62EF0096A597 /* VHDataManagerSingleton.m */,
 				2DBF8104150BAAAD0096A597 /* Supporting Files */,
 			);
 			path = SampleVariableHeightTableViewCell;
@@ -163,6 +178,9 @@
 				2DBF810A150BAAAD0096A597 /* main.m in Sources */,
 				2DBF810E150BAAAD0096A597 /* VHAppDelegate.m in Sources */,
 				2DBF8111150BAAAD0096A597 /* VHViewController.m in Sources */,
+				2DBF811C150BAB270096A597 /* VHTableViewController.m in Sources */,
+				2DBF811F150BC7BD0096A597 /* VHTableViewCell.m in Sources */,
+				2DBF8125150C62EF0096A597 /* VHDataManagerSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +292,7 @@
 				2DBF8119150BAAAD0096A597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
